@@ -11,7 +11,7 @@ namespace Planner {
 
         public int Year { get; set; }
 
-        private List<Building> _listBuildings = new List<Building> ();
+        public List<Building> _listBuildings = new List<Building> ();
 
         //the type first(Building) and then the new parameter name
         //creating a method for adding a new building to _listBuildings 
